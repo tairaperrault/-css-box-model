@@ -1,0 +1,72 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  text-align: center;
+   padding: 14px 16px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+a {
+  text-decoration: none;
+}
+a:link { color:#ffffff; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
+
+
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+h1 {
+  font-size: 2.5em; /* 40px */
+  line-height: 130%;
+  color: #0070BB;
+}
+
+h3 {
+  font-size: 1.25em; /* 20px */
+  line-height: 130%;
+}
